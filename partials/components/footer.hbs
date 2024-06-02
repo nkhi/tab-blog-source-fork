@@ -9,15 +9,16 @@
                     {{@site.title}}
                 {{/if}}
             </span>
-            <nav class="gh-footer-menu">
+            <div></div>
+            {{!-- <nav class="gh-footer-menu">
                 {{navigation type="secondary"}}
-            </nav>
+            </nav> --}}
             <div class="gh-footer-copyright">
-                Powered by <a href="https://ghost.org/" target="_blank" rel="noopener">Ghost</a>
+                <a href="https://tab.health">Sign Up</a> & Get $50 in Credits
             </div>
         </div>
 
-        {{#if @site.members_enabled}}
+        {{!-- {{#if @site.members_enabled}}
             {{#unless @member}}
                 <section class="gh-footer-signup">
                     <h2 class="gh-footer-signup-header is-title">
@@ -29,7 +30,7 @@
                     {{> "email-subscription" email_field_id="footer-email"}}
                 </section>
             {{/unless}}
-        {{/if}}
+        {{/if}} --}}
 
     </div>
 </footer>
