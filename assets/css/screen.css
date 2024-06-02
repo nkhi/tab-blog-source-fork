@@ -1389,7 +1389,7 @@ Search                         LOGO                    Login Subscribe
 .gh-header.is-classic {
     display: flex;
     margin-top: 0;
-    padding-block: 160px;
+    padding-block: 80px;
 }
 
 .gh-header.is-classic .gh-header-inner {
